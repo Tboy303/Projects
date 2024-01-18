@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'jost', sans-serif;
+}
+
+
+.toggle{
+    position: relative;
+    bottom: 15px;
+    left: 15px;
+}
+.logo{
+    position: relative;
+    left: 25px;
+}
+.option{
+    position: relative;
+    left: 125px;
+    bottom: 25px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
+    height: 50px;
+    color: grey;
+    border: 1px double rgb(245, 245, 245);
+    text-align: center;
+}
+.srch{
+    position: relative;
+    left: 120px;
+    bottom: 25px;
+    width: 450px;
+    height: 50px;
+    text-align: start;
+    padding-left: 20px;
+    color: grey;
+    border: 1px double rgb(245, 245, 245);
+}
+.btnn{
+    position: relative;
+    left: 115px;
+    bottom: 20px;
+    width: 60px;
+    height: 50px;
+    background: black;
+    border: none;
+    font-size: 3px;
+}
+.btnn:hover{
+    background: red;
+    cursor: pointer;
+    animation: ease-in;
+}
+
+.q, .w, .e, .r{
+    position: relative;
+    left: 230px;
+    bottom: 15px;
+    color: rgb(59, 59, 59);
+}
+
+.nav > ul{
+    float: left;
+    display: flex;
+    position: relative;
+    left: 300px;
+    list-style-type: none;
+}
+.home, .shop, .blog{
+    border: none;
+}
+.home{
+    position: relative;
+    left: 0px;
+    bottom: 10px;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    font-size: 17px    /* border: 1px solid green; */
+
+}
+
+.about{
+    position: relative;
+    left: 25px;
+    font-size: 17px;
+    top: 3px;
+}
+.about a{
+    text-decoration: none; 
+    color: black;
+}
+.about a:hover{
+    color: red;
+}
+
+.shop{
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+    font-size: 17px;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    padding-left: 9px;
+}
+
+.blog{
+    position: relative;
+    left: 60px;
+    bottom: 10px;
+    font-size: 17px;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    padding-left: 13px;
+    
+
+}
+
+.contact{
+    position: relative;
+    left: 80px;
+    top: 3px;
+    font-size: 17px;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+.contact a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.home:hover, .about:hover, .shop:hover, .blog:hover, .contact:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.icons{
+    position: relative;
+    left: 600px;
+    font-size: 20px;
+}
+
+.icons1:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.icons ion-icon{
+    position: relative;
+    left: 15px;
+    color: black;
+    padding-left: 15px;
+}
+
+.ame{
+    position: relative;
+    left: 800px;
+    bottom: 35px;
+    width: 120px;
+    height: 40px;
+    background: white;
+    border: 1px solid rgb(245, 245, 245);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+.eng{
+    border: none;
+    cursor: pointer;
+}
+
+.categories{
+    position: relative;
+    left: 15px;
+    bottom: 50px;
+}
+.cat{
+    width: 270px;
+    height: 60px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.cat b{
+    position: relative;
+    right: 18px;
+}
+
+#catt{
+    position: relative;
+    right: 10px;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.categories ul{
+    list-style-type: none;
+    border: 1px solid rgb(245, 245, 245) ;
+    width: 270px;
+}
+.categories ul li{
+    width: 270px;
+    height: 65px;
+    border: 1px solid rgb(245, 245, 245);
+    text-align: center;
+    align-items: center;
+}
+.categories ul li img{
+    position: relative;
+    right: 40px;
+    top: 20px;
+}
+.categories ul li span{
+    position: relative;
+    top: 10px;
+}
+
+
+.collection{
+    position: relative;
+    left: 310px;
+    background:  rgb(245, 245, 245); 
+    width: 70%;
+    height: 530px;
+    bottom: 610px;
+}
+.chair{
+    position: relative;
+    left: 390px;
+    top: 60px;
+    padding: 40px 0px;
+}
+#par{
+    position: relative;
+    bottom: 350px;
+    left: 50px;
+    width: 170px;
+    height: 30px;
+    padding: 4px 6px;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 50px;
+    text-align: center;
+}
+.collection > h2{
+    position: relative;
+    bottom: 320px;
+    left: 50px;
+    letter-spacing: 1px;
+    font-size: 35px;
+    
+}
+.par{
+    position: relative;
+    bottom: 300px;
+    left: 50px;
+    font-size: 17px;
+}
+.parr{
+    position: relative;
+    bottom: 260px;
+    left: 50px;
+    font-size: 18px;
+}
+.parr b span{
+    color: red;
+    font-size: 20px;
+}
+.collection button{
+    display: block;
+    position: relative;
+    bottom: 220px;
+    left: 50px;
+    background: black;
+    color: white;
+    border: none;
+    letter-spacing: .1em;
+    width: 180px;
+    height: 50px;
+    padding: 0px 20px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.collection button:hover{
+    background: red;
+    transition: .2s ease-in-out;
+}
+.collection button span{
+    position: relative;
+    left: 10px;
+}
+
+.dot{
+    position: relative;
+    bottom: 180px;
+    left: 470px;
+}
+
+.down{
+    position: relative;
+    display: flex;
+    left: 20px;
+    bottom: 500px;
+    width: 92%;
+}
+.shipping{
+    border: 1px solid rgb(245, 245, 245);
+    position: relative;
+    width: 300px;
+    padding-left: 15px;
+}
+.shipping iconify-icon{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.shipping h4{
+    position: relative;
+    left: 60px;
+    bottom: 30px;
+}
+.shipping span{
+    position: relative;
+    left: 60px;
+    bottom: 30px;
+}
+
+.payment{
+    border: 1px solid rgb(245, 245, 245);
+    position: relative;
+    width: 300px;
+    padding-left: 20px;
+}
+.payment iconify-icon{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.payment h4{
+    position: relative;
+    left: 60px;
+    bottom: 30px;
+}
+.payment span{
+    position: relative;
+    left: 60px;
+    bottom: 30px;
+}
+
+.support{
+    border: 1px solid rgb(245, 245, 245);
+    position: relative;
+    width: 300px;
+    padding-left: 30px;
+}
+.support iconify-icon{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.support h4{
+    position: relative;
+    left: 60px;
+    bottom: 30px;
+}
+.support span{
+    position: relative;
+    left: 60px;
+    bottom: 30px;
+}
+
+.money{
+    border: 1px solid rgb(245, 245, 245);
+    position: relative;
+    width: 350px;
+    padding-left: 60px;
+}
+.money iconify-icon{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.money h4{
+    position: relative;
+    left: 60px;
+    bottom: 30px;
+}
+.money span{
+    position: relative;
+    left: 60px;
+    bottom: 30px;
+}
+
+

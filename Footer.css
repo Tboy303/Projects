@@ -1,0 +1,229 @@
+.main-footer {
+    top: 50px;
+    position: relative;
+    background-color: #F6F7F8;
+}
+.auto-container {
+    position: static;
+    max-width: 1340px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.main-footer .widgets-section {
+    position: relative;
+    padding: 100px 0px 60px;
+}
+.col-lg-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}
+.col-lg-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+.main-footer .footer-widget {
+    margin-bottom: 30px;
+}
+a:visited {
+    text-decoration: none;
+    outline: none !important;
+}
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+.main-footer .widgets-section .text {
+    max-width: 380px;
+    line-height: 28.8px;
+    color: black;
+    margin-top: 15px;
+    font-family: 'Jost', sans-serif;
+}
+.main-footer .contact-list {
+    position: relative;
+    margin-top: 30px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.main-footer .contact-list li {
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    padding-left: 50px;
+    margin-bottom: 35px;
+    font-family:'Jost', sans-serif;
+}
+ul, li {
+    padding: 0px;
+    margin: 0px;
+}
+    
+.main-footer .contact-list li .icon {
+    position: absolute;
+    left: 0px;
+    top: -5px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+}
+.col-lg-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+.main-footer h5 {
+    color: black;
+    margin-bottom: 25px;
+}
+h5 {
+    line-height: 1.4em;
+    font-size: 22px;
+}
+h5{
+    position: relative;
+    margin: 0px;
+    background: none;
+    font-family:'Jost', sans-serif;
+}
+.main-footer .page-list {
+    position: relative;
+}
+.main-footer .page-list li {
+    position: relative;
+    margin-bottom: 20px;
+}
+.main-footer .page-list li a {
+    position: relative;
+    font-size: 16px;
+    color:rgb(27,26,26) ;
+    font-family: 'Jost', sans-serif;
+}
+.main-footer .page-list-two {
+    position: relative;
+}
+.main-footer .page-list-two li {
+    list-style-position: inside;
+    position: relative;
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--main-color);
+}
+.main-footer .page-list-two li a:before {
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 8px;
+    width: 8px;
+    height: 8px;
+    opacity: 0.20;
+    border-radius: 50px;
+    background-color: black;
+}
+.main-footer .page-list-two li a {
+    position: relative;
+    font-size: 16px;
+    color: rgb(27,26,26);
+    padding-left: 20px;
+    font-family:'Jost', sans-serif;
+}
+.body{
+    background-color: #F6F7F8;
+    background: #F6F7F8;
+
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+}
+.main-footer .footer-bottom {
+    position: relative;
+    padding: 20px 0px;
+    /* border: 100px solid rgba(rgb(0,0,0), 0.10); */
+}
+.align-items-center {
+    align-items: center!important;
+}
+.justify-content-between {
+    justify-content: space-between!important;
+}
+.flex-wrap {
+    flex-wrap: wrap!important;
+}
+.d-flex {
+    display: flex!important;
+}
+.main-footer .copyright {
+    position: relative;
+    color: black;
+    font-size: 18px;
+    font-family:'Jost', sans-serif;
+}
+.main-footer .copyright span {
+    color: red;
+}
+.main-footer .footer-bottom .email-box {
+    position: relative;
+    padding: 10px 25px;
+    font-weight: 500;
+    border-radius: 50px;
+    font-size: 15px;
+    color: rgb(52,45,45);
+    border: 1px solid red;
+    background-color: white;
+}
+.main-footer .footer-bottom .email-box a {
+    position: relative;
+    color: rgb(52,45,45);
+}
+.main-footer .footer-bottom .email-box .icon {
+    position: relative;
+    line-height: 1em;
+    top: 2px;
+    font-family: "flaticon";
+    color: red;
+    margin-right: 15px;
+}
+.main-footer .page-list-two li:hover{
+    color: red;
+    opacity: 1;
+   
+
+}
+.main-footer .page-list li:hover{
+    color: red;
+}
+
+.footer-bottom{
+    border-top: 3px solid#f0f0f0;
+
+}
+.images{
+    position: relative;
+    top: 50px;
+}
+nav {
+    box-shadow: 0 2px 4px 0 rgba(0,0, 0, .2);
+    position: fixed;
+}
+#floater {
+    padding-left: 70%;
+}
+.pic img{
+    padding-left: 20px;
+
+}
+

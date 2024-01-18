@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Bloxic</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <style>
+
+        body{
+          font-family: 'jost', sans-serif;
+        }
+      
+        nav {
+            box-shadow: 0 2px 4px 0 rgba(0,0, 0, .2);
+            position: fixed;
+        }
+        #floater {
+            padding-left: 70%;
+        }
+        a {
+            font-weight: bolder;
+        }
+        .T{
+            margin-top: 1.5%;
+            margin-left: 60%;  
+        }
+        S{
+            margin-left: 45%;
+        }
+        .h2{
+           margin-left: 50%;
+        }
+        .si{
+          margin-left: 10%;
+          margin-top: 4%;
+          padding:10px;
+          background: black;
+          font-size:large;
+        }
+        .bu{
+          margin-left: 1%;
+          /* margin-bottom: 15%; */
+          padding:10px;
+          background: white;
+          font-size:large;
+        }
+        .buuu{
+          margin-left: 1%;
+          margin-bottom: 15%;
+          padding:10px;
+          background: black;
+          font-size:large;
+        }
+        .buu{
+          margin-left: 1%;
+          margin-top: 0%;
+          padding:10px;
+          background: white;
+          font-size:large;
+        }
+        .fq{
+          margin-left: 1%;
+          margin-bottom: 5%;
+          padding:10px;
+          background: white;
+          font-size:large;
+        }
+        .B{
+          margin-bottom: 20%;
+        }
+        .chair{
+          display: inline-block;
+          position: absolute;
+          width: 45%;
+          height: 470px;
+          top: 80px;
+          left: 30px;
+        }
+        .Wchair{
+          z-index: 2;
+          display: inline-block;
+          position: absolute;
+          right: 600px;
+          width: 90px;
+          height: 80px;
+          top: 270px;
+        }
+        .Lchair{
+          z-index: 2;
+          display: inline-block;
+          position: absolute;
+          right: 600px;
+          width: 90px;
+          height: 80px;
+          top: 175px;
+        }
+        .Table{
+          z-index: 2;
+          display: inline-block;
+          position: absolute;
+          right: 600px;
+          width: 90px;
+          height: 80px;
+          top: 80px;
+        }
+        .Pchair{
+          z-index: 2;
+          display: inline-block;
+          position: absolute;
+          right: 600px;
+          width: 90px;
+          height: 80px;
+          top: 370px;
+        }
+        del{
+          text-decoration: line-through;
+          color: grey;
+          opacity: 0.5;
+        }
+        /* .rating {
+  display: inline-block;
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  font-size: 50px;
+}
+
+.rating label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  cursor: pointer;
+}
+
+.rating label:last-child {
+  position: static;
+}
+
+.rating label:nth-child(1) {
+  z-index: 5;
+}
+
+.rating label:nth-child(2) {
+  z-index: 4;
+}
+
+.rating label:nth-child(3) {
+  z-index: 3;
+}
+
+.rating label:nth-child(4) {
+  z-index: 2;
+}
+
+.rating label:nth-child(5) {
+  z-index: 1;
+}
+
+.rating label input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.rating label .icon {
+  float: left;
+  color: transparent;
+}
+
+.rating label:last-child .icon {
+  color: #000;
+}
+
+.rating:not(:hover) label input:checked ~ .icon,
+.rating:hover label:hover input ~ .icon {
+  color: #09f;
+}
+
+.rating label input:focus:not(:checked) ~ .icon:last-child {
+  color: #000;
+  text-shadow: 0 0 5px #09f;
+} */
+      </style> 
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <span><iconify-icon icon="mdi:sofa-single-outline" width="50" height="50"></iconify-icon></span>
+        <a class="navbar-brand" href="#">Bloxic</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav" id="floater">
+            <li class="nav-item active">
+              <a class="nav-link" href="home.html" >Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="footer.html" >About</a>
+            </li>
+            <li class
+            ="nav-item">
+              <a class="nav-link" href="shop.html" style="color: red;" >Shop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html" >Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="footer.html" >Contact Us</a>
+              </li>
+         </ul>
+        </div>
+      </nav>
+      <img src="b1111.png" class="chair">
+      <img src="b8.png" class=" Wchair">
+      <img src="b9.png" class="Lchair ">
+      <img src="b16.png" class="Table ">
+      <img src="b17.png" class="Pchair">
+      <div class="T">
+        <h3>Accesories Lather Shoes</h3>
+    <p class="S">(4 customer review)</p>
+    <form class="rating">
+      <label>
+        <input type="radio" name="stars" value="1" />
+        <span class="icon">★</span>
+      </label>
+      <label>
+        <input type="radio" name="stars" value="2" />
+        <span class="icon">★</span>
+        <span class="icon">★</span>
+      </label>
+      <label>
+        <input type="radio" name="stars" value="3" />
+        <span class="icon">★</span>
+        <span class="icon">★</span>
+        <span class="icon">★</span>   
+      </label>
+      <label>
+        <input type="radio" name="stars" value="4" />
+        <span class="icon">★</span>
+        <span class="icon">★</span>
+        <span class="icon">★</span>
+        <span class="icon">★</span>
+      </label>
+      <label>
+        <input type="radio" name="stars" value="5" />
+        <span class="icon">★</span>
+        <span class="icon">★</span>
+        <span class="icon">★</span>
+        <span class="icon">★</span>
+        <span class="icon">★</span>
+      </label>
+    </form>
+    <del>$32.00</del><span>$16.00   </span> <button type="button" class="s" style="color:black;">-34%</button>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente magni iste sit.</p>
+    <p>Model :<button type="button" class="s" style="color:black;">TYK</button> <button type="button" class="s" style="color:black;">FFD2</button> <button type="button" class="s" style="color:black;">23TT</button> <button type="button" class="s" style="color:black;">#454</button> <button type="button" class="s" style="color:black;">45HY</button></p>
+    <p>Catigories:All,Featured,Medical,Covid-19 Mask</p>
+    <p>Tags: Black,Brown,Red,Shoes,$0.00-$150.00</p>
+    <P>Share:<iconify-icon icon="mdi:facebook" width="30" height="30"></iconify-icon> <iconify-icon icon="mdi:twitter" width="30" height="30"></iconify-icon> <iconify-icon icon="mdi:linkedin" width="30" height="30"></iconify-icon> <iconify-icon icon="entypo-social:instagram-with-circle" width="30" height="30"></iconify-icon></P>
+    <p><button type="button" class="buuu" style="color: white;">ADD TO CART</button>  </p>
+      </div>
+      <!-- <br> -->
+      <p> <button type="button" class="si" style="color: white;">PRODUCTS DETAILS</button>  <button type="button" class="bu" style="color: black;">ADDITIONAL INFORMATION</button>  <button type="button" class="buu" style="color: black;">REVIEW (02)</button> <button type="button" class="fq" style="color: black;">F&Q</button></p>
+     <h2>Experience is over the world visit</h2>
+  </body> 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+ $(':radio').change(function() {
+    console.log('New star rating: ' + this.value);
+  });
+</script>
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  
+  
+  </body>
+</html>

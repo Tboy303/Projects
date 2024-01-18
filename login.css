@@ -1,0 +1,139 @@
+.register-section {
+    position: relative;
+    padding: 110px 0px 80px;
+}
+.auto-container {
+    position: static;
+    max-width: 1340px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+}
+.register-section .row {
+    margin: 0px -40px;
+}
+.register-section .column {
+    padding: 0px 40px;
+}
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.styled-form {
+    position: relative;
+}
+.col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+.col-sm-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+.register-section h4 {
+    font-weight: 500;
+    color: black;
+    margin-bottom: 30px;
+    font-family: var(--font-family-Josefin);
+}
+h4 {
+    line-height: 1.4em;
+    font-size:24px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.styled-form .form-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+.styled-form .form-group label {
+    position: relative;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+label {
+    display: inline-block;
+}
+.styled-form input[type="text"], .styled-form input[type="email"], .styled-form input[type="password"], .styled-form input[type="tel"], .styled-form input[type="number"], .styled-form input[type="url"], .styled-form select, .styled-form textarea {
+    position: relative;
+    display: block;
+    width: 100%;
+    background: white;
+    line-height: 30px;
+    padding: 8px 30px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 15px;
+    border: 2px solid #f4f4f4;
+    color: rgba(161, 161, 161, 1);
+}
+.styled-form .form-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+.styled-form .form-group .check-box {
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: normal;
+    padding-top: 5px;
+    color: var(--main-color-two);
+}
+ input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    background-color: #000;
+    color: white;
+    padding: 10px; 
+  
+}
+/* .check-box input[type="checkbox"] {
+    position:relative;
+    top: 10px;
+
+} */
+/* .styled-form .form-group .check-box label {
+    position: relative;
+    display: block;
+    width: 100%;
+    line-height: 22px;
+    padding: 4px 10px 0px;
+    padding-left: 25px;
+    background: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4e4f51;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+ */
+ .check-box a{
+    color: red;
+    text-decoration: none;
+ }
+.btt{
+    border-radius: 50px;
+    color: white;
+    background-color: #000;
+    width: 120px;
+    height: 50px;
+}
+nav {
+    box-shadow: 0 2px 4px 0 rgba(0,0, 0, .2);
+    position: fixed;
+}
+#floater {
+    padding-left: 70%;
+}
+.pic img{
+    padding-left: 20px;
+
+}
